@@ -1,0 +1,42 @@
+*{
+    background-color:#226EC4;
+}
+.menu{
+    background-color: #AF2A2A;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    color:#861616;
+}
+.content{
+    border: solid;
+    border-width: 5px;
+    border-color: #861616;
+    display:flex;
+    justify-content: space-around; 
+}
+body{
+    margin: 0px;
+}
+a:link{
+    color:green;
+}
+a:visited{
+    color:red
+}
+.stuff{
+    position: relative;
+}
+.stuff h2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -100%);
+    opacity:0
+}
+.stuff:hover h2{
+    opacity:1;
+}
+.stuff:hover img{
+    opacity:0.5;
+}
